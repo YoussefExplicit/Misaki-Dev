@@ -9,8 +9,7 @@ class Loop extends Command {
       description: "This command will display the current playing song.",
       usage: "np",
       category: "Music",
-      aliases: ["unloop"],
-      cost: 5
+      aliases: ["unloop"]
     });
   }
 
