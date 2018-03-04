@@ -9,7 +9,6 @@ class Volume extends Command {
       description: "This command will set the volume of the songs.",
       usage: "volume [number]",
       category: "Music",
-      cost: 5,
       permLevel: "Administrator"
     });
   }
