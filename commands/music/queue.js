@@ -8,8 +8,7 @@ class Queue extends Command {
       name: "queue",
       description: "This command will display all songs.",
       usage: "queue",
-      category: "Music",
-      cost: 5
+      category: "Music"
     });
   }
 
