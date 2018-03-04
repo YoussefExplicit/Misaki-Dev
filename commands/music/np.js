@@ -8,8 +8,7 @@ class NP extends Command {
       name: "np",
       description: "This command will display the current playing song.",
       usage: "np",
-      category: "Music",
-      cost: 5
+      category: "Music"
     });
   }
 
