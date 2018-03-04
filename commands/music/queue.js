@@ -31,8 +31,8 @@ class Queue extends Command {
     const queueEmbed = new MessageEmbed()
       .setAuthor("Queue")
       .setDescription(`${thisPlaylist.songs.map(song => `**-** ${song.title}`).join("\n")}`)
-      .setFooter(`Now playing: ${thisPlaylist.songs[0].title}`)      .setColor(message.guild.me.roles.highest.color || 0x00AE86);
-
+      .setFooter(`Now playing: ${thisPlaylist.songs[0].title}`)      
+      .setColor(message.guild.me.roles.highest.color || 0x00AE86);
     return message.channel.send(queueEmbed);
   }
 }
