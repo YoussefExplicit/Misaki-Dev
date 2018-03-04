@@ -11,8 +11,7 @@ class Play extends Command {
       name: "play",
       description: "This command will allow the bot to play a song.",
       usage: "play <url|song-name>",
-      category: "Music",
-      cost: 5
+      category: "Music"
     });
   }
 
