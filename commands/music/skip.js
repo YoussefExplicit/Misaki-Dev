@@ -9,8 +9,7 @@ class Skip extends Command {
       description: "This command will skip a current playing song.",
       usage: "skip",
       category: "Music",
-      aliases: ["next"],
-      cost: 5
+      aliases: ["next"]
     });
   }
 
