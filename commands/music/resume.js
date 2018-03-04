@@ -8,8 +8,7 @@ class Pause extends Command {
       name: "resume",
       description: "This command will resume the current playing song.",
       usage: "resume",
-      category: "Music",
-      cost: 5
+      category: "Music"
     });
   }
 
