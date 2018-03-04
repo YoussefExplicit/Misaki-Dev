@@ -1,0 +1,52 @@
+{
+  "name": "misaki",
+  "version": "5.0.0",
+  "description": "Misaki is all of the fun and entertainment commands taken from GuideBot aka York-Dev and bundled into this tsundere themed bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "lint": "eslint --fix .",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YorkAARGH/Misaki.git"
+  },
+  "author": "York (http://anidiots.guide)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YorkAARGH/Misaki/issues"
+  },
+  "homepage": "https://github.com/YorkAARGH/Misaki#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "discord.js": "github:hydrabolt/discord.js#2e0048add1036c4648a99cd6a780280b6dd4ce9b",
+    "enmap": "^0.4.2",
+    "enmap-level": "^1.0.0",
+    "fast-html-parser": "^1.0.1",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fortnite": "^3.0.0",
+    "fs-nextra": "^0.3.2",
+    "heapdump": "^0.3.9",
+    "html-entities": "^1.2.1",
+    "idiotic-api": "^0.1.7",
+    "inquirer": "^4.0.0",
+    "kitsu": "^3.1.4",
+    "klaw": "^2.1.1",
+    "moment": "^2.19.2",
+    "moment-duration-format": "^1.3.0",
+    "ms": "^2.1.1",
+    "node-opus": "^0.2.7",
+    "overwatch-js": "^1.6.1",
+    "simple-youtube-api": "^5.0.1",
+    "slot-machine": "^2.1.0",
+    "snekfetch": "^3.6.1",
+    "ytdl-core": "^0.20.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
+}
