@@ -9,7 +9,6 @@ class Stop extends Command {
       description: "This command will stop the current playing songs and clear the queue.",
       usage: "stop",
       category: "Music",
-      cost: 5,
       permLevel: "Administrator"
     });
   }
